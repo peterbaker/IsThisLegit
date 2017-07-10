@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## IsThisLegit
 
-You can use the [editor on GitHub](https://github.com/peterbaker/templatetest/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+When it comes to mitigating phishing, visibility is half the battle. Knowing what phishing attacks are hitting your organization is key to stopping them. Users can be an incredible source of alerting for phishing emails, but they often don't know where to report the emails. Also, having the ability to collect, correlate, and auto-respond to these reports is key to stopping attacks as quickly they come in. These are problems solved by IsThisLegit for free via open-source, unlike any somewhat similar but cost-prohibitive offerings out there.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+IsThisLegit is a Chrome extension and web application dashboard (leveraging Google App Engine) designed to support the management of phishing response for end-users and admins. By rolling out the Chrome extension, users will see a button in Gmail that allows them to easily report phishing emails to their security team with a single click. Now there's no need for users to remember which email address they need to send reports to. The email is then automatically reported and deleted from their inbox.
 
-### Markdown
+Once submitted, admins can then use the dashboard to rapidly analyze reported emails, identify phishing trends, categorize phishing emails, and set up auto-response rules.This allows the security team to quickly identify and respond to ongoing attacks.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/peterbaker/templatetest/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This demo will be unique for Arsenal because it covers the full lifecycle of phishing mitigation with the 'holy trinity' of tools (all developed by the Duo Labs team). These three distinct open-source tools work together seamlessly to test and train users (Gophish), help protect/take the burden off of users by making it more difficult for attackers (Phinn), and make reporting incidents as easy as a click of the button (IsThisLegit).
