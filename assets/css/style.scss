@@ -53,8 +53,11 @@ header {
 
 header .stub {
   background: #2b2b2b;
-  padding: 5px 0l;
+  padding: 5px 0;
 }
+
+header .stub .container {
+  padding-top: 5px;
 
 header .container {
   padding-top: 60px;
