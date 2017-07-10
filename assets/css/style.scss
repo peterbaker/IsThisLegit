@@ -47,12 +47,13 @@ header {
   background-image: url(../images/labs-bg-dark.png);
   width: 100%;
   border-bottom: 1px dashed $green;
-  padding: 20px 0 20px;
+  padding: 0 0 20px;
   margin: 0 0 40px 0;
 }
 
 header .stub {
   background: #2b2b2b;
+  padding: 5px 0l;
 }
 
 header .container {
