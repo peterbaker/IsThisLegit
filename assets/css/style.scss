@@ -10,14 +10,17 @@ body {
   margin: 0;
   padding: 0;
   background-color: #282828;
-  background-image: url(../images/labs-bg-dark.png);
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-size: contain;
   color: #eaeaea;
   font-size: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+.bodycontainer {
+    background-image: url(../images/labs-bg-dark.png);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: contain;
 }
 
 /* General & 'Reset' Stuff */
