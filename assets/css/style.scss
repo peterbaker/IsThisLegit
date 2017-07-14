@@ -75,9 +75,13 @@ header {
   color: $green;
   text-decoration: none;
 }
+
+.stub a span {
+  text-decoration: underline;
+}
   
 header .container {
-  padding-top: 80px;
+  padding-top: 120px;
 }
 
 header h1 {
